@@ -1,0 +1,16 @@
+.icon-back-link {
+  display: none;
+}
+.icon-back {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 4.5vw 6.5vw;
+}
+.2022page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}

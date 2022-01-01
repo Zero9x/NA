@@ -1,0 +1,50 @@
+.namePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-family: "Gamja Flower";
+}
+.namePage__text {
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin: 15px 0;
+  font-family: "Gamja Flower";
+}
+
+.namePage__form-submit {
+  display: none;
+}
+
+.namePage__form-input {
+  font-family: "Gamja Flower";
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color ease-in 0.5s;
+}
+
+.namePage__form-input:focus {
+  border-color: var(--yellow);
+  outline: none;
+}
+.namePage__form-input::placeholder {
+  color: rgba(0, 0, 0, 0.38);
+  font-family: "Gamja Flower";
+  font-size: 0.9rem;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 4.5vw 6.5vw;
+}
+
+@media (max-width: 900px) {
+}
