@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyNewYear2022</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="namePage">
+    <section>
+
+        <p class="namePage__text">
+            Please, Type your name.
+        </p>
+        <form 
+        class="namePage__form" 
+        id="namePage__form" 
+        action="letter.html">
+            <input 
+                required
+                oninvalid="this.setCustomValidity('Nhập đúng tên em nhé😎')"
+oninput="this.setCustomValidity('')"
+                name="username" 
+                type="text" 
+                placeholder="writh here"
+                class="namePage__form-input"
+                id="namePage__form-input">        
+            <input 
+                type="submit" 
+                value="name" 
+                id="namePage__form-submit"
+                class="namePage__form-submit">
+        </form>
+
+    </section>
+</div>
+<footer>
+    <label for="namePage__form-submit">
+        <i class="fas fa-angle-double-right fa-2x"></i>
+    </label>
+</footer>
+    <!-- icon JavaScript -->
+    <script src="https://kit.fontawesome.com/e4704dcbbd.js" crossorigin="anonymous"></script>
+    <script src="js/name.js"></script>
+</body>
+</html> 
